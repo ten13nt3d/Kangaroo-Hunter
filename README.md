@@ -26,14 +26,14 @@
 ---
 
 ## 📦 Estructura del Proyecto
-
-kangaroo-hunter/ 
-    │ 
-    ├── Dockerfile # Define entorno con dependencias necesarias 
-    ├── docker-compose.yml # Orquesta múltiples contenedores Kangaroo 
-    ├── generate_shards.sh # Genera los rangos de búsqueda (shards) 
-    ├── run_parallel.sh # Ejecuta Kangaroo usando GNU Parallel
-    └── README.md # Este documento
+```project
+kangaroo-hunter/
+├── 📄 Dockerfile            # 🐳 Define entorno con dependencias necesarias 
+├── 🧬 docker-compose.yml    # ⚙️ Orquesta múltiples contenedores Kangaroo 
+├── 🔢 generate_shards.sh    # 📐 Genera los rangos de búsqueda (shards) 
+├── 🧮 run_parallel.sh        # 🔄 Ejecuta Kangaroo usando GNU Parallel
+└── 📝 README.md              # 📘 Documentación principal del proyecto
+```
 
 ## 🚀 Características
 
@@ -59,6 +59,7 @@ Primero, clona este repositorio y construye la imagen Docker:
 git clone https://github.com/ten13nt3d/kangaroo-hunter.git
 cd kangaroo-hunter
 docker build -t kangaroo .
+```
 
 ---
 
